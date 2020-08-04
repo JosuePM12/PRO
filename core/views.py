@@ -21,3 +21,5 @@ def cliente(request, plantilla="cliente.html"):
 def factura(request, plantilla="factura.html"):
     return render(request, plantilla)
 
+def mecanico(request, plantilla="mecanico.html"):
+    return render(request, plantilla)

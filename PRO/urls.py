@@ -25,5 +25,6 @@ urlpatterns = [
     path('bodega/', views.bodega, name="bodega"),
     path('cliente/', views.cliente, name="cliente"),
     path('factura/', views.factura, name="factura"),
+    path('Mecanico/', views.mecanico, name="Mecanico"),
     path('admin/', admin.site.urls),
 ]
